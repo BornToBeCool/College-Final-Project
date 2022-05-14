@@ -1,0 +1,43 @@
+.admin-header {
+
+    text-align: center;
+    
+    padding: 0.5rem;
+    
+    font-size: 2rem;
+    
+    }
+    
+     
+    
+    .admin-menu {
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    align-items: center;
+    
+    justify-self: center;
+    
+    gap: 1rem;
+    
+    }
+    
+     
+    
+    #exit-admin {
+    
+    margin-top: 5rem;
+    
+    }
+    
+     
+    
+    .admin-menu button {
+    
+    width: 10rem;
+    
+    height: 5rem;
+    
+    }

@@ -1,0 +1,102 @@
+.footerContainer{
+    background-color: #e7e7e7;
+    width: 100%;
+}
+.firstRow{
+    padding-top: 1rem;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.firstRow a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    margin-left: 4rem;
+    color: rgb(2,127,141);
+}
+.secondRow{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.secondRow a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    margin-left: 3.5rem;
+    color: rgb(2,127,141);
+}
+.thirdRow{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.thirdRow i{
+    font-size: 1.7rem;
+    margin-left: 3.5rem;
+}
+.fourthRow{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 1.5rem;
+}
+.fourthRow h4{
+    color:rgb(2,127,141);
+    font-weight: 700;
+}
+.fifthRow{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 1.5rem;
+    color:rgb(2,127,141);
+    font-weight: 700;
+}
+
+/*--------------------------------------------  icons --------------------------- */
+.fa-facebook-square{
+    margin-left: 3.5rem;
+    gap: 1rem;
+    color:rgb(2,127,141);
+}
+.fa-instagram{
+    color:rgb(2,127,141);
+}
+.fa-youtube{
+    color:rgb(2,127,141);
+}
+.fa-twitter{
+    color:rgb(2,127,141);
+}
+.fa-copyright{
+    margin-left: 1rem;
+}
+/*--------------------------------------- viewport ----------------------- */
+@media only screen and (max-width: 822px) {
+    .firstRow, .secondRow, .thirdRow, .fourthRow, .fifthRow{
+        width: 80%;
+    }
+    .firstRow a{
+        margin-left: 2rem;
+    }
+    .secondRow a{
+        margin-left: 2rem;
+    }
+    .thirdRow i{
+        margin-left: 2rem;
+    }
+    
+}

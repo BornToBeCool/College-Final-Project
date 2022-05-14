@@ -1,0 +1,269 @@
+
+.container{                                         
+    background-color: #e7e7e7;
+    width: 100%;
+}
+.top_header{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    gap: 1%;
+}
+.mid_header{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    gap: 1%;
+}
+.bot_header{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.logo{
+    width: 5rem;
+    height: 5rem;
+    margin-top: 1rem;
+}
+.brandName{
+    margin-top: 2rem;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    color: rgb(2,127,141);
+    font-weight: 700;
+}
+.phoneIcon{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-top: 2.2rem;
+    margin-left: auto;
+}
+.phoneNumber{
+    margin-top: 2rem;
+    letter-spacing: 0.1rem;
+    color: rgb(2,127,141);
+}
+.contactPage{
+    margin-left: auto;
+    position: relative;
+    bottom: 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(2,127,141);
+    letter-spacing: 0.1rem;
+}
+.loginPage{
+    text-decoration: none;
+    position: relative;
+    bottom: 2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(2,127,141);
+    letter-spacing: 0.1rem;
+}
+.searchBox{
+    position: relative;
+    bottom: 1.2rem;
+    width: 50%;
+    border-radius: 2rem;
+    background-color: lightgray;
+    border-style: none; 
+}
+input[type="text"], textarea, select { 
+    outline: none;
+}
+
+.searchIcon{
+    width: 1.6rem;
+    height: 1.6rem; 
+    background-color: lightgray;
+    position: relative;
+    left: 1rem;
+    top:0.2rem;
+    background-color:rgb(2,127,141);
+}
+.icons{
+    display: flex;
+    margin-left: auto;
+    gap: 1rem;
+}
+.fa-user{
+    display: none !important;
+}
+
+
+.basketIcon{
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    bottom: 1.2rem;
+    margin-left: auto;
+}
+.search_box{
+    width: 4rem;
+    height: 2.2rem; 
+    border-radius: 3rem;
+    position: relative;
+    bottom: 1.17rem;
+    right: 4rem;
+    background-color:rgb(2,127,141);
+}
+/*---------------------------------------------------------------*/
+.navBar{
+    width: 70%;
+    margin: 0 auto;
+}
+.nav_bar{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    gap:1%;
+    justify-content: space-between;   
+}
+.nav_bar li{
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+    right: 2rem;
+    padding-bottom: 1rem;
+}
+.list_items{
+    text-decoration: none;
+    color: rgb(2,127,141);
+    letter-spacing: 0.1rem;
+}
+/* --------------- hamburger ----------------------- */
+.hamburger{
+    background-color: transparent;
+    border: 0;
+    color: rgb(2,127,141);
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.drop-down-content{
+    display: none;
+    
+}
+.dropdown:hover .drop-down-content{
+    display: block;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+
+  .top_header{
+    width: 80%;
+    }
+    .navBar{
+        width: 80%;
+    }
+    .mid_header{
+        width: 80%; 
+    }
+    .bot_header{
+        width: 80%; 
+    }
+
+    
+}
+
+@media only screen and (max-width: 1000px) {
+   
+    .top_header{
+      width: 90%;
+      }
+      .navBar{
+          width: 90%;
+      }
+      .mid_header{
+          width: 90%; 
+      }
+      .bot_header{
+          width: 90%; 
+      }
+  }
+  @media only screen and (max-width: 822px) {
+    
+    .top_header{
+      width: 95%;
+      }
+      .navBar{
+          width: 95%;
+      }
+      .mid_header{
+          width: 95%; 
+      }
+      .bot_header{
+          width: 95%; 
+      }
+      .container{
+          width: 100vw;;
+      }
+      .nav_bar{
+          display: none;
+          flex-direction: column;
+      }
+      .list_items{
+          margin-left: 35%;
+      }
+      ul li a:hover{
+        background-color: red;
+      }
+      .nav_bar.show{
+        display: flex;
+      }
+      .phoneIcon, .phoneNumber, .contactPage, .loginPage{
+          display: none;
+      }
+      .searchBox{
+        position: relative;
+        top: 0.5rem;
+        width: 60%;  
+    }
+    .search_box{
+        position: relative;
+        right: 4rem;
+        top:0.5rem;
+    }
+    .basketIcon{
+        position: relative;
+        bottom: -0.5rem;
+    }
+    .container{
+        min-height: 9rem;
+    }
+    .hamburger{
+        display: block;
+        margin-left: auto;
+        font-size: 1.2rem;
+    }
+    .fa-user{
+        display: block !important;
+        font-size: 1.5rem;
+        color: rgb(2,127,141);
+        position:relative;
+        top: 0.9rem; 
+    }
+
+  }
+
+  
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}

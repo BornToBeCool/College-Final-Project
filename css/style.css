@@ -1,0 +1,91 @@
+table {
+
+    table-layout:fixed;
+    
+    border-collapse: collapse;
+    
+    width: 100%;
+    
+    padding: 1rem 0 ;
+    
+    margin-bottom: 2rem;
+    
+    }
+    
+     
+    
+    td, th {
+    
+    border: 1px solid #000000;
+    
+    text-align: left;
+    
+    padding: 0.5rem;
+    
+    font-size: 0.8rem;
+    
+    }
+    
+     
+    
+    td {
+    
+    white-space: nowrap;
+    
+    overflow: hidden;
+    
+    text-overflow: ellipsis;
+    
+    }
+    
+     
+    
+    tr:nth-child(even) {
+    
+    background-color: #dddddd;
+    
+    }
+    
+     
+    
+    .listData {
+    
+    padding: 0;
+    
+    }
+    
+     
+    
+    .listImage {
+    
+    width: 100%;
+    
+    display: block;
+    
+    }
+    
+     
+    
+    .admin-image {
+    
+    display: flex;
+    
+    justify-content: center;
+    
+    align-items: center;
+    
+    width: 100%;
+    
+    }
+    
+     
+    
+    .admin-image img {
+    
+    object-fit: contain;
+    
+    width: 40%;
+    
+    border: 1px solid #000000;
+    
+    }

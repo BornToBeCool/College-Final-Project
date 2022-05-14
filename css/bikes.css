@@ -1,0 +1,50 @@
+.main-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.products{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product{
+    max-width: 300px;
+    margin: 20px;
+    transition: transform .2s;
+}
+
+.product:hover{
+    transform: scale(1.2);
+}
+.product img{
+    width: 250px;
+}
+.mountainBikes{
+    font-size: 2rem;
+    margin: 0 auto;
+    font-weight: 550;
+    padding: 2rem 0 2rem 0;
+    letter-spacing: 0.1rem;
+}
+
+.item{
+    display: flex;
+}
+.price{
+    color: red;
+    font-weight: 600;
+}
+.discount{
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    margin-top: 0.1rem;
+    color: grey;
+    text-decoration: line-through;
+}
+@media only screen and (max-width: 822px){
+    
+}

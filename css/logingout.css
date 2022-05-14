@@ -1,0 +1,46 @@
+.formContainer{
+    background-color: rgb(168, 168, 175);
+    width: 70vw;
+    height: 40vh;
+    margin: 0 auto;
+    
+}
+.data-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.data-form-header{
+    color: white;
+    display: flex;
+    margin-left: 25.5vw;
+}
+.updateDelete{
+    display: flex;
+    justify-content: left;
+    position: relative;
+}
+
+.logout_1{
+    color: white;
+    display: flex;
+    margin-left: 25.5vw;
+}
+.yes{
+    margin-left: 25.5vw;
+    width: 5rem;
+}
+.no{
+    width: 5rem;
+}
+.updateDelete{
+    margin-left: 25.5vw;
+    padding-top: 2rem;
+}
+.fa-check{
+    color: green;
+}
+.fa-ban{
+    margin-left: 1rem;
+    color: red;
+}
